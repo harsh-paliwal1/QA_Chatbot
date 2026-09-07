@@ -3,8 +3,7 @@
 A conversational Q&A web app built with LangChain, Groq and Streamlit.
 Runs entirely on free-tier services -- no credit card required at any step.
 
-**Live demo:** _PASTE YOUR HUGGING FACE SPACE LINK HERE AFTER DEPLOYING_
-`https://huggingface.co/spaces/YOUR_USERNAME/langchain-qa-chatbot`
+**Live demo:** https://qa-chatbot-bkdm.onrender.com
 ```
 
 ---
@@ -27,9 +26,9 @@ Runs entirely on free-tier services -- no credit card required at any step.
 | Language | Python 3.10+ |
 | LLM framework | LangChain (LCEL) |
 | Model provider | Groq (free tier) |
-| Model | Llama 3.3 70B / Llama 3.1 8B |
+| Model | "openai/gpt-oss-120b" / "GPT-OSS 20B" |
 | Frontend | Streamlit |
-| Deployment | Hugging Face Spaces (free CPU tier) |
+| Deployment 
 
 ---
 
