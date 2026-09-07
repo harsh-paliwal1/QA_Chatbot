@@ -11,7 +11,7 @@ Runs entirely on free-tier services -- no credit card required at any step.
 ## Features
 
 - Conversational chat with full message history kept across turns
-- Switchable models (Llama 3.3 70B for quality, Llama 3.1 8B for speed)
+- Switchable models 
 - Four assistant personas driven by swappable system prompts
 - Temperature slider to control creativity at runtime
 - Built with LangChain Expression Language (LCEL) pipelines
@@ -49,15 +49,9 @@ langchain-qa-chatbot/
 ---
 
 ## Setup
-
-### 1. Clone and enter the folder
-
-```bash
-git clone https://github.com/YOUR_USERNAME/langchain-qa-chatbot.git
-cd langchain-qa-chatbot
 ```
 
-### 2. Create and activate a virtual environment
+### 1. Create and activate a virtual environment
 
 **Windows:**
 ```bash
@@ -73,7 +67,7 @@ source venv/bin/activate
 
 You should now see `(venv)` at the start of your terminal line.
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 **Windows:**
 ```bash
@@ -85,7 +79,7 @@ pip install -r requirements.txt
 pip3 install -r requirements.txt
 ```
 
-### 4. Add your API key
+### 3. Add your API key
 
 Get a free key at [console.groq.com](https://console.groq.com) -- sign up,
 then **API Keys** -> **Create API Key**. No credit card is requested.
@@ -111,21 +105,7 @@ Your browser opens at `http://localhost:8501`.
 
 ---
 
-## Deploying free on Hugging Face Spaces
-
-1. Sign up at [huggingface.co](https://huggingface.co)
-2. Profile picture -> **New Space**
-3. Name it, choose SDK = **Streamlit**, hardware = **CPU basic (FREE)**, visibility = **Public**
-4. Go to **Settings** -> **Variables and secrets** -> **New secret**
-   - Name: `GROQ_API_KEY` (exactly this -- capitals and underscores)
-   - Value: your Groq key
-5. **Files** tab -> **Add file** -> **Upload files** -> upload `app.py` and `requirements.txt` only
-6. Wait 3-8 minutes for the first build, then open the **App** tab
-
-> Free Spaces sleep after 48 hours with no visitors and take ~30 seconds to
-> wake up. Nothing breaks; just open the link a few minutes before showing it
-> to anyone.
-
+## Deploying free 
 ---
 
 ## Switching to a different free provider
