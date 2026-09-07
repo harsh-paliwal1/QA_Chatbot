@@ -6,13 +6,6 @@ Runs entirely on free-tier services -- no credit card required at any step.
 **Live demo:** _PASTE YOUR HUGGING FACE SPACE LINK HERE AFTER DEPLOYING_
 `https://huggingface.co/spaces/YOUR_USERNAME/langchain-qa-chatbot`
 
----
-
-## Screenshot
-
-_TAKE A SCREENSHOT OF YOUR RUNNING APP AND DROP IT HERE._
-_On GitHub you can drag an image straight into this file in the web editor._
-
 ```
 ![App screenshot](screenshot.png)
 ```
