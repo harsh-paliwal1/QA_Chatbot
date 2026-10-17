@@ -149,16 +149,3 @@ stays exactly the same.
 | Deployed app errors on every question | The Space secret is misspelled. It must be `GROQ_API_KEY`. |
 
 ---
-
-## What I'd add next
-
-- RAG over uploaded PDFs, so the bot answers from a specific document
-  rather than only from the model's training data
-- Streaming responses with `st.write_stream()` for word-by-word output
-- Response caching to reduce repeat API calls
-
----
-
-## License
-
-MIT
